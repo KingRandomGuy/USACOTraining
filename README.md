@@ -1,2 +1,2 @@
 # USACOTraining
-My solutions to various USACO training problems.
+Java solutions to various USACO training problems
