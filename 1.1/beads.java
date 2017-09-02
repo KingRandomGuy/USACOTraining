@@ -71,7 +71,6 @@ public class beads{
 			
 		}
 		out.println(max);
-		System.out.println(max);
 		out.close();
 	}
 }
