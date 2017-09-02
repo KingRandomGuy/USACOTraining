@@ -26,7 +26,6 @@ public class friday {
 			counts[days%7]++;
 			int mar12 = feb12+28;
 			days+=28;
-			//counts[days%7]++;
 			if(daysPerYear==366) {
 				mar12++;
 				days++;
