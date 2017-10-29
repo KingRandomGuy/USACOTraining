@@ -8,6 +8,7 @@ ID: kingrandomguy
 LANG: JAVA
 TASK: gift1
 */
+
 public class gift1 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader f = new BufferedReader(new FileReader("gift1.in"));
@@ -34,6 +35,7 @@ public class gift1 {
 				map.put(recipient, map.get(recipient)+gifts/numPeople);
 			}
 		}
+		f.close();
 		for(int i=0; i<NP; i++) {
 			out.println(names[i] +" " + map.get(names[i]));
 		}
