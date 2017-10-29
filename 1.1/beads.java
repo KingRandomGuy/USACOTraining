@@ -1,4 +1,3 @@
-import java.util.StringTokenizer;
 import java.io.*;
 
 /*
@@ -6,16 +5,17 @@ ID: kingrandomguy
 LANG: JAVA
 TASK: beads
 */
+
 public class beads{
 	public static void main(String[] args) throws IOException {
 		BufferedReader f = new BufferedReader(new FileReader("beads.in"));
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("beads.out")));
 		int N = Integer.parseInt(f.readLine());
 		String necklace = f.readLine();
+		f.close();
 		int max=0;
 		for(int i=1; i<N; i++) {
 			int count=0;
-			int count2=0;
 			int pos = i-1;
 			int pos2=i;
 			char s1i= necklace.charAt(pos);
