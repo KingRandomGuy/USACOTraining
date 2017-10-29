@@ -5,12 +5,14 @@ ID: kingrandomguy
 LANG: JAVA
 TASK: ride
 */
+
 public class ride {
 	public static void main(String[] args) throws IOException {
 		BufferedReader f = new BufferedReader(new FileReader("ride.in"));
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("ride.out")));
 		String one = f.readLine();
 		String two = f.readLine();
+		f.close();
 		int sumone = 1, sumtwo=1;
 		for(int i=0; i<one.length(); i++) {
 			sumone*=one.charAt(i)-64;
