@@ -73,7 +73,6 @@ public class crypt1 {
 				}
 			}
 		}
-		System.out.println(count);
 		out.println(count);
 		out.close();
 	}
